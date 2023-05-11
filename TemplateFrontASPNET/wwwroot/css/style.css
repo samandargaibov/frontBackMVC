@@ -1,0 +1,652 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*::selection{
+    color: #fff;
+    background-color: #ad9356;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header {
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 60px;
+}
+.logo{
+    width: 8%;
+}
+.logo a img{
+    width: 100%;
+}
+header nav{
+    position: relative;
+    font-size: 16px;
+}
+.header nav a{
+    color: #e5e6e6;
+    margin: 0 23px;
+}
+.header nav{
+    color: #e5e6e6;
+    padding-top: 14px;
+}
+.header nav i{
+    margin-left: 25px;
+    cursor: pointer;
+}
+.home{
+    position: relative;
+}
+.home::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -9px;
+    left: 0;
+    background-color: #dadbdb;
+}
+.fa-solid{
+    position: relative;
+}
+.number{
+    position: absolute;
+    font-size: 11px;
+    top: -10px;
+}
+.home_a{
+    position: relative;
+}
+.home_a::before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -9px;
+    left: 0;
+    background-color: #dadbdb;
+    transition: .5s;
+}
+.home_a:hover::before{
+    width: 100%;
+}
+.background{
+    height: 100vh;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/home-1-slider-image-1.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.retrobar_all{
+    max-width: 1140px;
+    width: 50%;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    float: right;
+    margin-right: 6rem;
+    position: relative;
+    user-select: none;
+}
+.retrobar_logo{
+    margin-bottom: 25px;
+}
+.retrobar_name h1{
+    font-size: 5rem;
+    margin-bottom: 15px;
+}
+.retrobar_all .divider{
+    margin-bottom: 30px;
+}
+.retrobar_text{
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 70px;
+    color: #c9c6c6;
+    width: 80%;
+}
+.retrobar_button a{
+    padding: 25px 60px;
+    border: 1px solid #fff;
+    font-size: 15px;
+    color: #fff;
+    transition: 1s;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.retrobar_button a:hover{
+    background-color: #ad9356;
+    border-color: #ad9356;
+    color: #e7e4e4;
+}
+.right-side{
+    height: 220px;
+}
+.arrow-left{
+    position: absolute;
+    top: 50%;
+    left: 45px;
+    font-size: 50px;
+    color: #ececec;
+    cursor: pointer;
+    transition: 1s;
+}
+.arrow-right{
+    position: absolute;
+    top: 50%;
+    right: 45px;
+    font-size: 50px;
+    color: #ececec;
+    cursor: pointer;
+    transition: 1s;
+}
+.arrow-left:hover{
+    color: #ad9356;
+}
+.arrow-right:hover{
+    color: #ad9356;
+}
+.trolley{
+    position: absolute;
+    position: fixed;
+    top: 51%;
+    right: 0;
+    font-size: 15px;
+    background-color: #fff;
+    padding: 12px;
+    color: rgb(240, 6, 95);
+    cursor: pointer;
+    z-index: 10;
+}
+.circle{
+    position: absolute;
+    position: fixed;
+    top: 46%;
+    right: 0;
+    font-size: 15px;
+    background-color: rgb(240, 6, 95);
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    z-index: 10;
+}
+.second_index .top{
+    margin-bottom: 55px;
+}
+.top-header{
+    width: 31%;
+    margin: auto;
+    text-align: center;
+    padding-top: 120px;
+}
+.top-header h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgb(29, 29, 29);
+}
+.top-header img{
+    margin-bottom: 20px;
+}
+.top-header p{
+    font-size: 17px;
+    color: #686767;
+    margin-bottom: 50px;
+}
+.bottom{
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom .box{
+    padding: 55px 20px;
+    width: 23%;
+    text-align: center;
+}
+.box .images{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.box .images-text h1{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #333232;
+    cursor: pointer;
+    transition: .3s;
+}
+.box .images-text h1:hover{
+    color: #ad9356;
+}
+.box .images-text p{
+    color: #6e6b6b;
+}
+.third_index{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.third_top{
+    width: 100%;
+    text-align: center;
+    padding-top: 120px;
+}
+.third_top h1{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.third_top img{
+    margin-bottom: 20px;
+}
+.third_top p{
+    margin-bottom: 25px;
+    width: 33%;
+    margin: auto;
+    font-size: 20px;
+    color: rgb(112, 112, 112);
+    padding-bottom: 4rem;
+}
+.third_top p::selection{
+    color: #fff;
+    background-color: #ad9356;
+}
+.third_bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    margin: auto;
+}
+.third_bottom .third_box{
+    width: 32%;
+    margin: auto;
+    height: 600px;
+    
+}
+.bottom_img img{
+    width: 100%;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.third_bottom .bottom_text a h5{
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: #464542;
+    font-weight: 100;
+    cursor: pointer;
+    transition: .5s;
+}
+.third_bottom .bottom_text a h5:hover{
+    color: #ad9356;
+}
+.third_bottom .third_box .bottom_text p{
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: #878070;
+}
+.third_bottom .third_box .bottom_text p::selection{
+    color: #fff;
+    background-color: #ad9356;
+}
+.third_bottom .third_box .bottom_text span{
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+.third_bottom .third_box .bottom_text{
+    position: relative;
+}
+.third_bottom .third_box .bottom_text .span{
+    position: absolute;
+    padding-left: 25px;
+    cursor: pointer;
+    transition: padding .5s;
+}
+.third_bottom .third_box .bottom_text .span:hover{
+    color: #ad9356;
+    padding-left: 35px;
+}
+.span::before{
+    content: '';
+    width: 10px;
+    position: absolute;
+    border: 1px solid rgb(61, 61, 61);
+    bottom: 50%;
+    left: 0;
+    transition: .5s;
+    background-color: currentColor;
+}
+.span:hover::before{
+    color: #eca601;
+    padding-left: 7px;
+}
+.fourth_index{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-2.jpg);
+    background-position: 50% 0px;
+    height: 50vh;
+    display: flex;
+    margin-top: 4rem;
+    align-items: center;
+}
+.fourth_index .fourth_img{
+    width: 100%;
+    text-align: center;
+}
+.fifth_index{
+    width: 1300px;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.fifth_box{
+    width: 25%;
+    text-align: center;
+}
+.fifth_box span{
+    margin-bottom: 20px;
+    font-size: 60px;
+    color: #ad9356;
+}
+.fifth_box p{
+    font-size: 17px;
+    color: #64532a;
+}
+.fifth_box h3{
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(46, 46, 46);
+}
+.sixth_index{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.sixth_top{
+    max-width: 100%;
+    text-align: center;
+    padding-top: 7rem;
+}
+.sixth_top h2{
+    font-weight: 100;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.sixth_top img{
+    margin-bottom: 25px;
+}
+.sixth_bottom .sixth_images{
+    position: relative;
+}
+.sixth_bottom .sixth_images img{
+    transition: .7s;
+}
+.sixth_bottom .sixth_images img:hover{
+    opacity: 0.2;
+}
+.sixth_images:hover .add_button{
+    opacity: 1;
+}
+.sixth_bottom .add_button{
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    padding: 20px 20px;
+    background-color: #ad9356;
+    color: #fff;
+    opacity: 0;
+    font-size: 20px;
+    transform: translate(-50%,-50%);
+    transition: .5s;
+}
+.sixth_bottom .add_button a{
+    z-index: 1;
+    color: #fff;
+    transition: .5s;
+}
+.sixth_bottom .add_button:hover{
+    background-color: rgb(34, 34, 34);
+    color: #fff;
+}
+.sixth_top p{
+    width: 42%;
+    margin: auto;
+    font-size: 19px;
+    color: rgb(66, 66, 66);
+}
+.sixth_bottom{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6rem;
+}
+.sixth_box{
+    width: 23%;
+    text-align: center;
+}
+.sixth_box img{
+    width: 100%;
+    cursor: pointer;
+}
+.sixth_bottom_text h3{
+    font-weight: 100;
+    margin-bottom: 10px;
+    transition: .5s;
+    font-size: 21px;
+    margin-top: 15px;
+}
+.sixth_bottom_text h3:hover{
+    cursor: pointer;
+    color: #ad9356;
+}
+.sixth_bottom_text span{
+    font-weight: 100;
+    color: #64532a;
+}
+.seventh-top{
+    text-align: center;
+    padding: 6rem 0;
+}
+.seventh-top h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.seventh-top img{
+    margin-bottom: 20px;
+}
+.seventh-top p{
+    font-size: 20px;
+    width: 30%;
+    margin: auto;
+}
+.seventh-bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.seventh-bottom .box1{
+    width: 24%;
+}
+.seventh-bottom img{
+    width: 100%;
+    cursor: pointer;
+    vertical-align: bottom;
+}
+.img-text{
+    position: absolute;
+    top: 38%;
+    right: 52%;
+    transform: translate(50%,50%);
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    transition: .4s;
+    cursor: pointer;
+}
+.box1:hover::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0,.5);        
+}
+.box1:hover .img-text{
+    opacity: 1;
+}
+.box1:hover img{
+    opacity: .8;
+    vertical-align: bottom;
+}
+.img-text h3{
+    margin-bottom: 12px;
+    font-size: 24px;
+}
+.img-text p{
+    font-size: 15px;
+}
+.img-text p:hover{
+    color: rgb(255, 166, 0);
+}
+.box1{
+    position: relative;
+    cursor: pointer;
+}
+.eight_index{
+    padding: 5rem 0;
+}
+.eight_index .partners{
+    display: flex;
+    justify-content: space-between;
+}
+.eight_index .logos img{
+    width: 100%;
+    cursor: pointer;
+}
+.eight_index .logos img:hover{
+    opacity: .8;
+}
+.nineth-background{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/p2-background-img-1.jpg);
+    padding: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nineth-background a{
+    padding: 15px 25px;
+    background-color: #ad9356;
+    color: #fff;
+    font-size: 14px;
+    transition: .5s;
+}
+.nineth-background a:hover{
+    background-color: black;
+}
+.nineth-background h3{
+    color: rgb(83, 83, 83);
+}
+.tenth-background{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/footer-top-img-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tenth-text{
+    text-align: center;
+    color: #ebeaea;
+}
+.tenth-text img{
+    padding-top: 5rem;
+    margin-bottom: 20px;
+}
+.tenth-text .tenth-logo p{
+    width: 30%;
+    margin: auto;
+    margin-bottom: 4rem;
+    font-size: 18px;
+}
+.tenth-middle{
+    margin-top: 20px;
+    font-size: 19px;
+}
+.tenth-middle h3{
+    margin-bottom: 20px;
+    font-weight: 200;
+    font-size: 23px;
+}
+.tenth-middle-p{
+    margin-bottom: 45px;
+    
+}
+.tenth-bottom{
+    padding-bottom: 6rem;
+}
+.tenth-bottom h3{
+    font-weight: 200;
+    font-size: 21px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.tenth-bottom input{
+    background-color: transparent;
+    border: 1px solid #fff;
+    width: 380px;
+    height: 50px;
+    padding: 1.8rem;
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+}
+footer{
+    padding: 4rem;
+    background-color: #121212;
+    color: #fff;
+}
+footer nav a{
+    margin-left: 30px;
+    color: #fff;
+    transition: .3s;
+}
+footer nav a:hover{
+    color: #ad9356;
+}
+.footer p{
+    font-size: 16px;
+}
+footer .footer-icons i{
+    margin-left: 25px;
+    cursor: pointer;
+    transition: .3s;
+}
+footer .footer-icons i:hover{
+    color: #ad9356;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.footer nav{
+    width: 33%;
+}

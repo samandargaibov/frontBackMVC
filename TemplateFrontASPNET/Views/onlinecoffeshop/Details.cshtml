@@ -1,0 +1,19 @@
+﻿@using TemplateFrontASPNET.Models;
+@model Coffee
+
+
+        <div class="sixth_bottom">
+            <div class="sixth_box">
+                <div class="sixth_images">
+                   <img src=@Model.Image alt="">
+                   <div class="add_button">
+                        <a href="">Add to cart</a>
+                    </div>
+                </div>
+                <div class="sixth_bottom_text">
+                    <h3>@Model.Name</h3>
+                    <span>$ @Model.Price.00</span>
+                </div>
+             </div>
+        </div>
+

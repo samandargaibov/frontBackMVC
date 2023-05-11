@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "3OmpAsd0eaqi2w8XddOYSv1Q6gjpF2/bzqvzCeo7knU=",
+  "Source": "TemplateFrontASPNET",
+  "BasePath": "_content/TemplateFrontASPNET",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TemplateFrontASPNET\\wwwroot",
+      "Source": "TemplateFrontASPNET",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\ders C#\\TemplateFrontASPNET\\TemplateFrontASPNET\\wwwroot\\",
+      "BasePath": "_content/TemplateFrontASPNET",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\ders C#\\TemplateFrontASPNET\\TemplateFrontASPNET\\wwwroot\\css\\style.css",
+      "SourceId": "TemplateFrontASPNET",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\ders C#\\TemplateFrontASPNET\\TemplateFrontASPNET\\wwwroot\\",
+      "BasePath": "_content/TemplateFrontASPNET",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ]
+}
